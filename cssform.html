@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Form</title>
+    <link rel="stylesheet" href="cssform.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Exhibition Booking Form</h2>
+        <form action="#" method="get">
+            <div class="box" >
+                <input type="text" name="name" id="name" placeholder="participant's name"></input>
+                <select name="college_student" id="college_student">
+                    <option value="college student">college student</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="checkbox">
+                <div class="checkbox1">
+                    <p>your project type (science)</p>
+                    <label for="project_type">
+                    <input type="checkbox" name="project_type" id="project_type">technical machinery </input> <br>
+                    <input type="checkbox" name="project_type" id="project_type">technical computer </input> <br>
+                    <input type="checkbox" name="project_type" id="project_type">technical research </input> <br>
+                    <input type="checkbox" name="project_type" id="project_type">electronics </input> <br>
+                    <input type="checkbox" name="project_type" id="project_type">other science theme </input> <br>
+                    </label>
+                </div>
+                <div class="checkbox1" id="checkbox2">
+                    <p>your project type (art)</p>
+                    <label for="project_type">
+                    <input type="checkbox" name="project_type" id="project_type">history </input> <br>
+                    <input type="checkbox" name="project_type" id="project_type">political science </input> <br>
+                    <input type="checkbox" name="project_type" id="project_type">design art </input> <br>
+                    <input type="checkbox" name="project_type" id="project_type">paintings </input> <br>
+                    <input type="checkbox" name="project_type" id="project_type">other art theme </input> <br>
+                    </label>
+                </div>
+            </div>
+            <p><strong>contact information</strong></p>
+            <div class="contactinfo">
+                <input type="email" name="email" id="email" placeholder="your email"></input>
+                <input type="phone" name="phone" id="phone" placeholder="your phone number"></input>
+                <input type="textarea" name="street_address" id="street_address" placeholder="street address"></input>
+                <input type="text" name="city" id="city" placeholder="city"></input>
+                <input type="text" name="state" id="state" placeholder="state"></input>
+                <input type="text" name="zip_code" id="zip_code" placeholder="zip code"></input>
+                <input type="text" name="country" id="country" placeholder="country"></input>
+                <button type="submit">Book Now</button>
+            </div>
+    </div>
+    </form>
+</body>
+</html>
