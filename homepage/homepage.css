@@ -1,0 +1,194 @@
+* {
+    font-family: Arial, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #c5b2b2;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e1d1d1;
+    padding: 10px 10px;
+    box-shadow: 0 2px 4px #0000001a;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 20px;
+    width: auto;
+    overflow: hidden;
+}
+nav h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #752f04;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #7b7272;
+}
+nav ul li a:hover {
+    color: #3e3737;
+    transition: color 0.4s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav button {
+
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8000f9;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+nav button a {
+    text-decoration: none;
+    color: rgb(247, 246, 246);
+    font-weight: bold;
+}
+nav button:hover {
+    background-color: #e67300f9;
+    transition: background-color 0.3s;
+    transform: scale(1.1);
+}
+
+
+/* Hero Section */
+
+
+.hero-section {
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80') no-repeat center center/cover;
+    height: calc(100vh - 250px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 0 20px; */
+    position: relative;
+    overflow: hidden;
+}
+.hero-section h1 , .hero-section h2 {
+    font-size: 30px;
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px #000000b3;
+    margin: 0%;
+    padding: 0%;
+}
+.hero-section input[type="search"] {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #9a9494;
+}
+.hero-section button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8000f9;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 50px;
+}
+.hero-section button:hover {
+    background-color: #e67300f9;
+    transition: background-color 0.3s;
+    transform: scale(1.1);
+}
+.hero-section button a {
+    text-decoration: none;
+    color: rgb(247, 246, 246);
+    font-weight: bold;
+}
+
+
+/* Hero-Section-completed */
+
+/* Services-Section */
+
+.Services{
+    background-color: #d7e4e4;
+    width: auto;
+    height: auto;
+    padding: 10px 10px 40px;
+}
+.Services h2 , .Services p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px #0000001a;
+    background-color: #fcf5f5bf;
+    width: 220px;
+}
+.card img{
+    display: block;
+    object-fit: cover;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px #0000001a;
+}
+#card2{
+   border: 2px solid #fa9703;
+}
+p {
+    text-align: center;
+    color: #5c5a5a;
+}
+
+/* Services-Section-completed */
+
+/* Footer-Section */
+footer {
+    background-color: #f2e6e6;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 4px #0000001a;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #7b7272;
+    font-size: 14px;
+}
